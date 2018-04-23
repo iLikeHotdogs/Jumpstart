@@ -1,0 +1,105 @@
+/* for Google fonts
+
+font-family: 'Open Sans', sans-serif;
+font-family: 'Monoton', cursive;
+
+*/
+
+html {
+  font-size: 14px;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.4;
+}
+
+
+h2 {
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: #399bd1;
+}
+
+
+img {
+  width: 100%;
+}
+
+
+/*Bootstrap overrides*/
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover {
+  background-color: inherit;
+  color: #399bd1;
+}
+
+
+/*navbar*/
+
+
+
+
+
+
+/*jumbotron*/
+
+.jumbotron {
+  height: 44rem;
+  padding-top: 10rem;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+  background-image: url("../images/jumbotron-bike.jpg");
+}
+
+
+.jumbotron h1 {
+  font-family: "Monoton", sans-serif;
+  font-size: 7.1rem;
+  color: white;
+  text-shadow:
+  -1px -1px 0 #000,
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000;
+}
+
+.jumbotron p {
+  width: 51.3rem;
+  margin: auto;
+}
+
+/* Project Image Containers */
+
+.image-container {
+  overflow: hidden;
+}
+
+.image-container img {
+  opacity: 0.7;
+
+
+/* Featured Project
+
+.featured-project {
+  margin-top: -7rem; /* To account for relatively positioned button */
+
+
+
+.categories h3 {
+  color: #399bd1;
+  font-size: 1.3rem;
+}
+
+.categories ul {
+  color: rgba(0, 0, 0, 0.7);
+  line-height: 1.4;
+}
